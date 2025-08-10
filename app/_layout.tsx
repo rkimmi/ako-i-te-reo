@@ -1,5 +1,10 @@
 import { Stack } from "expo-router";
+import { ServiceProvider } from "./services/ServiceProvider";
 
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <ServiceProvider>
+      <Stack />
+    </ServiceProvider>
+  );
 }

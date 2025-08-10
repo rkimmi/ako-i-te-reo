@@ -1,4 +1,5 @@
 # Ako i te reo
+
 Flashcard app designed for learning new kupu and rerenga kupu, with AI assisted flashcard creation using unstructured text copied to your clipboard.
 
 ## Get started
@@ -32,7 +33,12 @@ When you're ready, run:
 npm run reset-project
 ```
 
+## Reset cache for simulators
 
-# Credits 
+```bash
+ npx expo start --clear
+```
+
+# Credits
 
 This project was created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
